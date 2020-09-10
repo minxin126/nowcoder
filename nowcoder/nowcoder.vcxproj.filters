@@ -16,6 +16,15 @@
     <Filter Include="Redraiment">
       <UniqueIdentifier>{bf4786b2-16cb-47ee-93ed-b0c5a79aaf30}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\getLastWordLength">
+      <UniqueIdentifier>{6616b854-8b50-49af-afbf-e7d9c836fe1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\getLastWordLength">
+      <UniqueIdentifier>{3b73be7d-45a1-41bc-b57e-d58e722498e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sortInterger">
+      <UniqueIdentifier>{cd93e480-541f-42dd-b56b-4da1aae3d46f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="nowcoder.cpp">
@@ -24,5 +33,25 @@
     <ClCompile Include="Redraiment001.cpp">
       <Filter>Redraiment</Filter>
     </ClCompile>
+    <ClCompile Include="getInfor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="solution001.cpp">
+      <Filter>源文件\getLastWordLength</Filter>
+    </ClCompile>
+    <ClCompile Include="sortInterger.cpp">
+      <Filter>sortInterger</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="getInfor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="solution001.h">
+      <Filter>头文件\getLastWordLength</Filter>
+    </ClInclude>
+    <ClInclude Include="sortInterger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

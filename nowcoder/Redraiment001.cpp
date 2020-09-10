@@ -6,7 +6,8 @@ using namespace std;
 //这个程序调的时间挺长
 //基本思想是按照题目要求，即从左向右扫描数据，计算以每个数据作为起始桩，需要走的树桩的最大数目
 //这个程序看的时间挺长，是一个动态规划的问题。看的话大致明白了。自己写的话还有问题。
-int main() {
+int mainold()
+{
 	int N;
 	while (cin >> N) {
 		//using vector can be array.int num[i].
@@ -38,6 +39,6 @@ int main() {
 		}
 		cout << max << endl;
 	}
+	//
 	return 0;
-	//the number is  2 5 1 5 4 5
 }
