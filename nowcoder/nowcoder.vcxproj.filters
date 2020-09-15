@@ -25,6 +25,9 @@
     <Filter Include="sortInterger">
       <UniqueIdentifier>{cd93e480-541f-42dd-b56b-4da1aae3d46f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ArithSequence">
+      <UniqueIdentifier>{3ab66a01-253b-462c-9fa8-b15727379681}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="nowcoder.cpp">
@@ -42,6 +45,15 @@
     <ClCompile Include="sortInterger.cpp">
       <Filter>sortInterger</Filter>
     </ClCompile>
+    <ClCompile Include="ArithSequence001.cpp">
+      <Filter>ArithSequence</Filter>
+    </ClCompile>
+    <ClCompile Include="bigNumber.cpp">
+      <Filter>sortInterger</Filter>
+    </ClCompile>
+    <ClCompile Include="bigNumber002.cpp">
+      <Filter>sortInterger</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="getInfor.h">
@@ -51,6 +63,9 @@
       <Filter>头文件\getLastWordLength</Filter>
     </ClInclude>
     <ClInclude Include="sortInterger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ArithSequence.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

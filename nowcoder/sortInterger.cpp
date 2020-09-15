@@ -42,7 +42,7 @@ void getMinsort(vector<int>sortData)
 		center.push_back(sortData[i]);
 	}
 }
-int main()
+int mainsort()
 {
 	int N;
 	//cout << "please input N:";
@@ -82,4 +82,5 @@ int main()
 		sortData.clear();
 		center.clear();
 	}
+	return 0;
 }

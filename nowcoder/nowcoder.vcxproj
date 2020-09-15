@@ -147,6 +147,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ArithSequence001.cpp" />
+    <ClCompile Include="bigNumber.cpp" />
+    <ClCompile Include="bigNumber002.cpp" />
     <ClCompile Include="getInfor.cpp" />
     <ClCompile Include="nowcoder.cpp" />
     <ClCompile Include="Redraiment001.cpp" />
@@ -154,6 +157,7 @@
     <ClCompile Include="sortInterger.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ArithSequence.h" />
     <ClInclude Include="getInfor.h" />
     <ClInclude Include="solution001.h" />
     <ClInclude Include="sortInterger.h" />
