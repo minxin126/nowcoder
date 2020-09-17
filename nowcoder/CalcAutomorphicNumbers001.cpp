@@ -22,5 +22,5 @@ int CalcAutomorphicNumbers(int n)
 }
 int main()
 {
-	//
+	//Í¦ºÃµÄ
 }
