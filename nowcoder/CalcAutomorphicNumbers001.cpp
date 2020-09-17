@@ -23,4 +23,5 @@ int CalcAutomorphicNumbers(int n)
 int main()
 {
 	//挺好的
+	//还是
 }
