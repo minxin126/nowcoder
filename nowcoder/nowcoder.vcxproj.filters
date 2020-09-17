@@ -28,6 +28,9 @@
     <Filter Include="ArithSequence">
       <UniqueIdentifier>{3ab66a01-253b-462c-9fa8-b15727379681}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CalcAutomorphicNumbers">
+      <UniqueIdentifier>{1781b3f6-37eb-456c-8113-de7bd4ddbb59}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="nowcoder.cpp">
@@ -54,6 +57,9 @@
     <ClCompile Include="bigNumber002.cpp">
       <Filter>sortInterger</Filter>
     </ClCompile>
+    <ClCompile Include="CalcAutomorphicNumbers001.cpp">
+      <Filter>CalcAutomorphicNumbers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="getInfor.h">
@@ -66,6 +72,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="ArithSequence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CalcAutomorphicNumbers001.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

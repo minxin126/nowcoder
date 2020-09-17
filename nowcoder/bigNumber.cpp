@@ -5,7 +5,7 @@
 #define M 10005
 char s1[M], s2[M], s[M];
 int a[M], b[M], c[M];
-int main()
+int mainnothing()
 {
 	int i, j, m, n, k;
 	while (~scanf_s("%s %s", s1, s2))
