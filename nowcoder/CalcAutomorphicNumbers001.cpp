@@ -24,10 +24,9 @@ int CalcAutomorphicNumbers(int n)
 	}
 	return 0;
 }
-int main()
+int maincal001()
 {
 	//is to to do it.
-
 	std::string s1;
 	std::string s2;
 	cin >> s1 >> s2;

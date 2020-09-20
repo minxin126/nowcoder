@@ -60,6 +60,9 @@
     <ClCompile Include="CalcAutomorphicNumbers001.cpp">
       <Filter>CalcAutomorphicNumbers</Filter>
     </ClCompile>
+    <ClCompile Include="CalcAutomorphicNumbers002.cpp">
+      <Filter>CalcAutomorphicNumbers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="getInfor.h">

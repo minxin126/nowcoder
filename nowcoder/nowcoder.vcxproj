@@ -151,6 +151,7 @@
     <ClCompile Include="bigNumber.cpp" />
     <ClCompile Include="bigNumber002.cpp" />
     <ClCompile Include="CalcAutomorphicNumbers001.cpp" />
+    <ClCompile Include="CalcAutomorphicNumbers002.cpp" />
     <ClCompile Include="getInfor.cpp" />
     <ClCompile Include="nowcoder.cpp" />
     <ClCompile Include="Redraiment001.cpp" />
