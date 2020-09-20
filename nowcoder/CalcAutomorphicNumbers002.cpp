@@ -8,7 +8,7 @@ std::string BigNumMultiply(std::string s1, std::string s2) {
 	std::deque<int> vec(s1.size() + s2.size() - 1, 0);
 	for (int i = 0; i < s1.size(); ++i) {
 		for (int j = 0; j < s2.size(); ++j) {
-			vec[i + j] += (s1[i] - '0')*(s2[j] - '0');//记录相乘结果
+			vec[i + j] += (s1[i]/* - '0'*/)*(s2[j] /*- '0'*/);//记录相乘结果
 		}
 	}
 	//进位处理
