@@ -150,6 +150,7 @@
     <ClCompile Include="ArithSequence001.cpp" />
     <ClCompile Include="bigNumber.cpp" />
     <ClCompile Include="bigNumber002.cpp" />
+    <ClCompile Include="BigNumMultiply001.cpp" />
     <ClCompile Include="CalcAutomorphicNumbers001.cpp" />
     <ClCompile Include="CalcAutomorphicNumbers002.cpp" />
     <ClCompile Include="getInfor.cpp" />
