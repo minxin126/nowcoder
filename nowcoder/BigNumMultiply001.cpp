@@ -4,6 +4,7 @@
 using namespace std;
 std::string BigNumMulitiply() {
 	std::deque<string> deq;
+	string res;
 	string str1, str2;
 	while (cin >> str1 >> str2)
 	{
@@ -15,6 +16,11 @@ std::string BigNumMulitiply() {
 			}
 		}
 	}
+
+	for (int i = deq.size(); i >= 0; i--)
+	{
+	}
+	return res;
 }
 int main() {
 }
