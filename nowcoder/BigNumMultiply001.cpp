@@ -1,9 +1,9 @@
 #include<iostream>
 #include<deque>
 #include<sstream>
-using namespace std;
-std::string BigNumMulitiply() {
-	std::deque<string> deq;
+using namespace std;//using this std;
+string BigNumMulitiply() {
+	deque<string> deq;
 	string res;
 	string str1, str2;
 	while (cin >> str1 >> str2)
@@ -16,11 +16,16 @@ std::string BigNumMulitiply() {
 			}
 		}
 	}
+	int addflag = 0;//因为是队列，所有最早的元素，序号就会越大，那为什么不用栈，队列，先进先出。
 
-	for (int i = deq.size(); i >= 0; i--)
+	for (int i = deq.size() - 1; i >= 0; i--)
 	{
 	}
+	//deq[i] = deq[i] + addflag;
+
 	return res;
 }
-int main() {
+
+int mainok() {
+	return 0;
 }

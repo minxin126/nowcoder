@@ -4,7 +4,7 @@
 std::string BigNumMultiply(std::string s1, std::string s2) {
 	//记录最终结果
 	std::string res = "";
-	//使用deque是因为出现进位时可以在队列前插入数据，效率比vector高，大小设为最小
+	//使用deque是因为出现进位时可以在队列前插入数据，效率比vector高，大小设为最小,deque只是单纯的记录每一位数字相乘的结果，可以大于10.
 	std::deque<int> vec(s1.size() + s2.size() - 1, 0);
 	for (int i = 0; i < s1.size(); ++i) {
 		for (int j = 0; j < s2.size(); ++j) {
@@ -17,15 +17,15 @@ std::string BigNumMultiply(std::string s1, std::string s2) {
 	//倒序遍历，是因为最左边的值为最高位，最右边的值在最低位，进位运算要从低位开始
 	for (int i = vec.size() - 1; i >= 0; --i) {
 		int temp = vec[i] + addflag;//当前值加上进位值
-		vec[i] = temp % 10;//当前值 is the rest number.sometime we have.now we  calculate the origin number.
+		vec[i] = temp % 10;//当前值 is the rest number.sometime we have.now we  calculate the origin number.每一位加上之前的进位值，同时也还要计算自己是否要产生进位。
 		addflag = temp / 10;//进位值 we use this to calcualte to  add flag,but the  added flag must add first then to calculate this.i have understand this function.
 	}//we have calculate the result.
 
 	//如果有进位，将进位加到队列头部 i know this is the last addflag.
 	while (addflag != 0) {
 		int t = addflag % 10;//record all the addNumbers.
-		vec.push_front(t);//put at the begin.
-		addflag /= 10;//addflag=addflag/10, save all addflag indeque.
+		vec.push_front(t);//put at the begin,place at the begin.
+		addflag /= 10;//addflag=addflag/10, save all addflag indeque.calculate the new addflag.
 	}
 	for (auto c : vec) {
 		std::cout << c;
@@ -35,12 +35,13 @@ std::string BigNumMultiply(std::string s1, std::string s2) {
 	}
 	return res;
 }
-int mainbig() {
+int main() {
 	std::string str1, str2;
 	while (std::cin >> str1 >> str2)
 	{
-		std::cout << str1 << "*" << str2 << "=" << std::endl;
-		std::cout << BigNumMultiply(str1, str2) << std::endl;
+		std::cout << str1 << "*" << str2 << "=" << std::endl;// i hope we can more confindence about ourself.
+		std::cout << BigNumMultiply(str1, str2) << std::endl;// i am unwilling to do it.
+		//i think this is more suitable for me in company to finish this work.e
 	}
 	return 0;
 }
