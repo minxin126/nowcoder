@@ -41,7 +41,7 @@ int main() {
 	{
 		std::cout << str1 << "*" << str2 << "=" << std::endl;// i hope we can more confindence about ourself.
 		std::cout << BigNumMultiply(str1, str2) << std::endl;// i am unwilling to do it.
-		//i think this is more suitable for me in company to finish this work.e
+		//i think this is more suitable for me in company to finish this work.
 	}
 	return 0;
 }
