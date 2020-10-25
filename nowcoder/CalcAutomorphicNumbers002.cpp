@@ -35,7 +35,7 @@ std::string BigNumMultiply(std::string s1, std::string s2) {
 	}
 	return res;
 }
-int main() {
+int maincal002() {
 	std::string str1, str2;
 	while (std::cin >> str1 >> str2)
 	{

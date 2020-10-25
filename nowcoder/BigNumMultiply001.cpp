@@ -34,12 +34,17 @@ string BigNumMulitiply() {
 	}
 	for (auto c : deq)
 	{
-		cout << c;//print all c string.
+		cout << c;//print all c string.+
 		std::ostringstream ss;//function as printf.
 		ss << c;//print it in this display device.
 		res = res + ss.str();//res as the last result.
 	}
 	return res;//the lat result.
+	//now control my self to use computer.i am tired i do not want to use computer and keyborard.
+	//unbelieved new to know about it.nothing i use this .
+	//now i will continute to write three shape or continute to write mutliple numbers.
+	//i do not know about it.
+	//i want to finish ti.
 }
 
 int mainok() {

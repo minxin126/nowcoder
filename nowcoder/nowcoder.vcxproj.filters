@@ -31,6 +31,9 @@
     <Filter Include="CalcAutomorphicNumbers">
       <UniqueIdentifier>{1781b3f6-37eb-456c-8113-de7bd4ddbb59}</UniqueIdentifier>
     </Filter>
+    <Filter Include="maxPointinLine">
+      <UniqueIdentifier>{563595e2-3a34-483b-b181-6dd1208d77dd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="nowcoder.cpp">
@@ -65,6 +68,12 @@
     </ClCompile>
     <ClCompile Include="BigNumMultiply001.cpp">
       <Filter>CalcAutomorphicNumbers</Filter>
+    </ClCompile>
+    <ClCompile Include="maxPointinLinte001.h">
+      <Filter>maxPointinLine</Filter>
+    </ClCompile>
+    <ClCompile Include="maxPointinLine002.cpp">
+      <Filter>maxPointinLine</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
