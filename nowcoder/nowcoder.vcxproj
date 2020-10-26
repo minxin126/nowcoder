@@ -155,7 +155,7 @@
     <ClCompile Include="CalcAutomorphicNumbers002.cpp" />
     <ClCompile Include="getInfor.cpp" />
     <ClCompile Include="maxPointinLine002.cpp" />
-    <ClCompile Include="maxPointinLinte001.h" />
+    <ClCompile Include="maxPointinLinte001.cpp" />
     <ClCompile Include="nowcoder.cpp" />
     <ClCompile Include="Redraiment001.cpp" />
     <ClCompile Include="solution001.cpp" />
