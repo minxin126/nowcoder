@@ -47,7 +47,10 @@ public:
 };
 int main()
 {
+	//how to make me quickly to exercise myself.tomorrow i want to write somecode everyday.i think this is a good place.
+	//how to use data into the vector container.
 	Solution solution;
+
 	Point myPon;
 	myPon.x = 1;
 	myPon.y = 2;
@@ -60,11 +63,30 @@ int main()
 	myPon2.x = 3;
 	myPon2.y = 6;
 
-	vector<Point> points;
-	points.push_back(myPon);
-	points.push_back(myPon1);
-	points.push_back(myPon2);
+	Point myPonall;
+	for (int i = 0; i < 10; i++)
+	{
+		/*myponall[i].x = i;
+		myponall[i].y = i;*/
+	}
 
+	//some information i like to finish the work.althought i am slow than others,but i like it.and i think it is good to finish the task.it is important how i feel and like.not just compare with others.
+	//the feeling is diffent.
+
+	vector<Point> points;
+	for (int i = 0; i < 10; i++)
+	{
+		points[0].x = i;
+		points[0].y = i;
+	}
+	/*points.push_back(myPon);
+	points.push_back(myPon1);
+	points.push_back(myPon2);*/
+
+	/*for (auto pos = map.begin(); pos != map.end(); map++)
+	{
+		points.push_back(pos);
+	}*/
 	cout << "the result is:";
 	cout << solution.maxPoints(points) << endl;
 

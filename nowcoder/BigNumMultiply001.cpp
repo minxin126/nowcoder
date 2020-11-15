@@ -29,7 +29,8 @@ string BigNumMulitiply() {
 	while (addflag != 0)
 	{
 		int t = addflag % 10;//only to calculate the rest of it.
-		deq.push_front(t);//put it at the begin.
+		deq.push_front(t);//put it at the begin.考生需要模拟实现一个简单的自动售货系统，实现投币、购买商品、退币、查询库存商品及存钱盒信息的功能。
+
 		addflag /= 10;//until addflag is zero.
 	}
 	for (auto c : deq)
